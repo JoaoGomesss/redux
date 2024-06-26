@@ -8,7 +8,7 @@ import {
   removeProductFromCart,
   increaseProductQuantity,
   decreaseProductQuantity,
-} from "../../redux/cart/actions";
+} from "../../redux/cart/slice";
 
 const CartItem = ({ product }) => {
   const dispatch = useDispatch();
